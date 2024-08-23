@@ -1,0 +1,15 @@
+package com.ssafy.ws.step2;
+
+public class MovieTest {
+	public static void main(String[] args) {
+		IMovieManager mmi = MovieManagerImpl.getInstance();
+		
+		Movie her = new Movie(1, "Her", "감독이름1(몰라..)", "드라마", 126);
+
+		Movie m = new Movie(11, "Title", "Director", "Genre", 126);
+		mmi.add(her);		//MovieList[]에 m의 객체의 주소값을 대입
+		
+		System.out.println(m.getDirector());
+		
+	}
+}

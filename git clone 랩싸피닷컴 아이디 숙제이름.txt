@@ -1,0 +1,4 @@
+git clone 숙제주소
+git add .
+git commit -m ''
+git push

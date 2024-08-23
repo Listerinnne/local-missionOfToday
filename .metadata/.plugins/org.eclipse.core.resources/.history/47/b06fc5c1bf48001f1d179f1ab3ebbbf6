@@ -1,0 +1,27 @@
+package com.ssafy.ws.step2;
+
+public class MovieTest {
+	public static void main(String[] args) {
+		
+		IMovieManager mmi = MovieManagerImpl.getInstance();
+
+		Movie m1 = new Movie(1, "Title1", "Director1", "Genre1", 111);
+		Movie m2 = new Movie(2, "Title2", "Director2", "Genre2", 222);
+		Movie m3 = new Movie(3, "Title3", "Director3", "Genre3", 333);
+		Movie m4 = new Movie(4, "Title4", "Director4", "Genre4", 444);
+		
+		mmi.add(m1);
+		mmi.add(m2);
+		mmi.add(m3);
+		mmi.add(m4);
+		
+		
+		System.out.println(mmi.getList().length);	
+		//getList 반환형이 Movie[]이므로 그 배열의 주소가 반환됨
+//		for(int i=0;; i++) {
+//			if(mmi.getList()[i] == null) {}
+//		}
+		
+			 
+	}
+}

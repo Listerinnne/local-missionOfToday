@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;InterfaceTest.java&apos; to &apos;AlarmSound.java&apos;&#x0D;&#x0A;- Original project: &apos;java_ws_06_c&apos;&#x0D;&#x0A;- Original element: &apos;InterfaceTest.java&apos;&#x0D;&#x0A;- Renamed element: &apos;AlarmSound.java&apos;" description="Rename compilation unit &apos;InterfaceTest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{InterfaceTest.java" name="AlarmSound.java" references="false" stamp="1721694290498" version="1.0"/>
+</session>

@@ -1,0 +1,32 @@
+package com.ssafy.ws.step2;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class swea_1984 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();	//테스트케이스 갯수
+		int[] arr = new int[10];	//입력받은 수들을 저장할 변수
+		
+		for(int i=0; i<n; i++) {	//테스트케이스 갯수만큼 반복
+			int sum = 0;	//배열 안 모든 정수를 합할 
+			for(int j=0; j<10; j++) {
+				arr[j] = sc.nextInt();
+			}
+			Arrays.sort(arr);
+			for(int k=1; k<9; k++) {
+				sum += arr[k];
+			}
+			System.out.printf("#%d %f\n",i+1,sum/8.0);
+		}
+	
+//		System.out.println(5.0/4);
+//		System.out.println(Math.round(5.0/4));
+		
+	
+		
+	}
+
+}
