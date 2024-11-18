@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring_ws_06_2/src/main/java/com/ssafy/ws/config/UserConfig.java&apos; to &apos;MyBatisConfig.java&apos;" description="Rename resource &apos;UserConfig.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/java/com/ssafy/ws/config/UserConfig.java" name="MyBatisConfig.java" stamp="1729235089872" updateReferences="true"/>
+</session>

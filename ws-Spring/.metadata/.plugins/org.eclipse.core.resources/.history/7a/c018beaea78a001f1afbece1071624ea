@@ -1,0 +1,19 @@
+package com.ssafy.mvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.ssafy.mvc.dto.User;
+
+@Controller
+public class UserController {
+
+	@GetMapping("/login")
+	public String gotoLoginform(Model model) {
+		model.addAttribute("msg2","로그인페이지로 이동함");
+		return "/user/loginform";
+	}
+	
+	
+}

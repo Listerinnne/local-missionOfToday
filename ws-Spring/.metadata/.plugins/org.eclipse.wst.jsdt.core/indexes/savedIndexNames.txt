@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\SSAFY\Desktop\MissionOfToday\ws-Spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2785237870.index
+4221007760.index
+3753529843.index
+2474938993.index
+2905776928.index
+1664776382.index

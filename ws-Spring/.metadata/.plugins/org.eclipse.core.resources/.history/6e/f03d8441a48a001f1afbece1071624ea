@@ -1,0 +1,25 @@
+package com.ssafy.mvc;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestParam;
+
+
+@Controller
+public class HelloController {
+	
+	@GetMapping("/hello")
+	public String gotoHello() {
+		
+		return "hello";
+	}
+	
+	@GetMapping("/login")
+	public String gotoLogin(@ModelAttribute User user) {
+		return new String();
+	}
+	
+	
+
+}

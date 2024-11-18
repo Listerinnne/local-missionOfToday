@@ -1,0 +1,20 @@
+package com.ssafy.mvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.ssafy.mvc.dto.User;
+
+@Controller
+public class UserController {
+
+	@GetMapping("/login")
+	public String gotoLoginform(@RequestParam("id") String id, @RequestParam("pw") String pw) {
+		
+		return "loginform";
+	}
+	
+	
+}
